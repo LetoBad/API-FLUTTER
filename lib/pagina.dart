@@ -5,7 +5,7 @@ class Pagina extends StatefulWidget {
   const Pagina({super.key});
 
   @override
-  State<Pagina> createState(_PaginaState);
+  State<Pagina> createState() => _PaginaState();
 }
 
 
